@@ -1,0 +1,166 @@
+:root{
+  --black-color:#000000
+}
+html, body{
+  font-family: Helvetica;
+  padding:0px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+img{width:35%;}
+
+nav{
+  background-color: #000000;
+  display: flex;
+  padding: 10px;
+  padding-right: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display:  flex;
+
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: blue;
+
+}
+/*
+.product{
+  padding: 10px;
+  margin-top: -240px;
+}
+
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 2px #cecece;
+  text-align: center;
+}
+
+.img_content{
+  text-align: center;
+  padding: 10px;
+}
+
+.main_button{
+  background-color: #F6514A;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+}
+*/
+.img_fondo{
+  background-image: url("../images/bck_rect.png");
+  max-height:600px;
+  background-size: cover;
+  background-position: center top;
+  padding: 50;
+  display: flex;
+}
+.main_section{
+    padding: 120px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+
+.products {
+  background-image: url("../images/back_rec.png");
+  /*max-height: 500px;*/
+  background-size: cover;
+  background-position: center top;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.productsPro {
+  background-size: cover;
+  background-position: center top;
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+
+
+.descripText{
+  text-align: justify;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 40px;
+}
+
+.main_button{
+  background-color: #000000;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+}
+
+.product .content{
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 6px #cecece;
+  text-align: center;
+}
+.beneficios{
+  padding: 60px;
+  margin-top: -75px;
+  text-align: center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: #000000;
+  padding: 5px;
+  margin-top: 50x;
+  color: white;
+
+}
+
+.option{
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+.redes{
+  width: 100px;
+  height: 100px;
+}
+
+.container{
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+  padding: 10px;
+}
